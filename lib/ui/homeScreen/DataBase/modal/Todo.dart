@@ -1,6 +1,5 @@
 import 'package:hive/hive.dart';
-
-
+part 'Todo.g.dart';
 
 @HiveType(typeId: 0)
 class Todo extends HiveObject{ //data class
